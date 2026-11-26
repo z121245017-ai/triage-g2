@@ -1,0 +1,22 @@
+{
+  "package_id": "io.triageg2.hud",
+  "edition": "202601",
+  "name": "TriageG2",
+  "version": "1.0.0",
+  "min_app_version": "2.2.10",
+  "min_sdk_version": "0.0.16",
+  "entrypoint": "index.html",
+  "permissions": [
+    {
+      "name": "network",
+      "desc": "Connect to your local TriageG2 companion bridge for optional OpenRouter/Claude AI drafting, Notion task writes, Google Workspace drafts/calendar shifts, and Telegram digests.",
+      "whitelist": [
+        "http://127.0.0.1:8788",
+        "http://localhost:8788"
+      ]
+    }
+  ],
+  "supported_languages": [
+    "en"
+  ]
+}
